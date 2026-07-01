@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fitness">
+
+        <activity
+            android:name=".Info_Welcome"
+            android:exported="false" />
+        <activity
+            android:name=".Info_Features"
+            android:exported="false" />
+
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Exercise_Triceps_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Shoulders_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Legs_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Gluteus_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Forearm_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Chest_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Cardio_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Biceps_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Ecercise_Back_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Abs_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Workout_Info"
+            android:exported="false" />
+        <activity
+            android:name=".Workout_Days"
+            android:exported="false" />
+        <activity
+            android:name=".Workout_Timer"
+            android:exported="false" />
+        <activity
+            android:name=".Workout_Start"
+            android:exported="false" />
+        <activity
+            android:name=".Workout_Session"
+            android:exported="false" />
+        <activity
+            android:name=".Create_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Create_Workout_Plan"
+            android:exported="false" />
+        <activity
+            android:name=".Workout_Female_Weight_Loss"
+            android:exported="false" />
+        <activity
+            android:name=".Workout_Female_Begginer_FullBody"
+            android:exported="false" />
+        <activity
+            android:name=".Workout_Female_Advanced_FullBody"
+            android:exported="false" />
+        <activity
+            android:name=".Workout_Male_Weight_Loss"
+            android:exported="false" />
+        <activity
+            android:name=".Workout_male_advanced_full_body"
+            android:exported="false" />
+        <activity
+            android:name=".Workout_Male_Beginner_FullBody"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Cardio"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Gluteus"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Abs"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Forearm"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Triceps"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Biceps"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Shoulders"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Legs"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise_Back"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".Exercise_Chest"
+            android:exported="false" />
+        <activity
+            android:name=".Difficulty_level_female"
+            android:exported="false" />
+        <activity
+            android:name=".Workout_plan_female"
+            android:exported="false" />
+        <activity
+            android:name=".Difficulty_level"
+            android:exported="false" />
+        <activity
+            android:name=".Workout_Plan"
+            android:exported="false" />
+        <activity
+            android:name=".Home_or_Gym"
+            android:exported="false" />
+        <activity
+            android:name=".Handbook"
+            android:exported="false" />
+        <activity
+            android:name=".Exercice_details"
+            android:exported="false" />
+        <activity
+            android:name=".Exercice"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Gender"
+            android:exported="false" />
+
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
